@@ -10,5 +10,6 @@ public class ex01 {
         if(idade < 18){
             System.out.println("Menor de idade, proibido a entrada.");
         }
+        ler.close();
     }
 }
