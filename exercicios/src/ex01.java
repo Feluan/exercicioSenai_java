@@ -7,6 +7,7 @@ public class ex01 {
 
         System.out.print("Digite sua idade: ");
         idade = ler.nextInt();
+
         if(idade < 18){
             System.out.println("Menor de idade, proibido a entrada.");
         }
